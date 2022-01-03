@@ -35,6 +35,7 @@
   width: 100vw;
   height: auto;
   position: relative;
+  justify-content: space-between;
 }
 
 .card_section .card_content .card_item:hover .card_image img {
@@ -107,7 +108,7 @@
 
 .card_section .card_content .owl-nav .owl-next {
   position: absolute;
-  left: 95vw;
+  left: 97.1vw;
   bottom: 0px;
   text-align: center;
   z-index: 5;
@@ -134,7 +135,7 @@
 .card_section .card_content .owl-nav .owl-prev {
   margin: 0;
   position: absolute;
-  left: 90.2vw;
+  left: 94.5vw;
   bottom: 0px;
   text-align: center;
   z-index: 5;
@@ -221,7 +222,22 @@
     line-height: 1rem;
   }
 }
-@media only screen and (max-width: 939px) {
+@media only screen and (max-width: 1974px) {
+  .card_section .card_content .owl-nav .owl-next {
+    width: 50px;
+    height: 40px;
+    left: 97.5vw;
+    bottom: 0vh;
+  }
+
+  .card_section .card_content .owl-nav .owl-prev {
+    width: 50px;
+    height: 40px;
+    left: 95vw;
+    bottom: 0vh;
+  }
+}
+@media only screen and (max-width: 1250px) {
   .owl-theme .owl-dots {
     top: 17vh;
   }
@@ -229,15 +245,13 @@
   .card_section .card_content .owl-nav .owl-next {
     width: 50px;
     height: 40px;
-    left: 94vw;
-    bottom: 1vh;
+    left: 96vw;
   }
 
   .card_section .card_content .owl-nav .owl-prev {
     width: 50px;
     height: 40px;
-    right: 6vw;
-    bottom: 1vh;
+    left: 92vw;
   }
 
   .btn_card {
